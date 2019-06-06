@@ -1,0 +1,12 @@
+.pageHeader {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  font-stretch: expanded;
+  color: rgba(238, 238, 238, 0.657);
+}

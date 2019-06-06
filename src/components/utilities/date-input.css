@@ -1,0 +1,24 @@
+.DayPickerInput {
+  width: 100%;
+  max-width: 250px;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #b6b6b6;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b6b6b6;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+
+::placeholder {
+  color: #b6b6b6;
+  font-size: 12px;
+  padding: 10px 5px;
+}

@@ -1,0 +1,78 @@
+body {
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background: #f6f8fd;
+  color: #a5a5a5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parallax-mirror {
+  visibility: visible;
+  z-index: -100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  transform: translate3d(0px, 0px, 0px);
+  height: 470px;
+  width: 1280px;
+}
+
+.super_container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 90% !important;
+}
+
+.navbar-toggler-icon {
+  border: 1px solid rgba(211, 172, 121, 0.28);
+  border-radius: 3px;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+.flex-column {
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.curvy_3 {
+  border-radius: 3px;
+}
+
+.curvy_2 {
+  border-radius: 2px;
+}
+
+.not-found {
+  background: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  width: 100%;
+}
+
+.spread-inline {
+  background: #f6f8fd;
+  padding: 20px 0;
+}
+
+.spliter-bg {
+  background: #fbfcff !important;
+}

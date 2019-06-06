@@ -1,0 +1,15 @@
+.cta_book_now {
+  padding: 10px 25px;
+  background: #ff9000;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.cta_book_now:hover {
+  cursor: pointer;
+  background-color: #cc7300;
+  color: #fff;
+}

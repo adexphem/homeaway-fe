@@ -1,0 +1,48 @@
+.checking-operation {
+  padding: 15px 0;
+  background: rgba(2, 0, 8, 0.959);
+}
+
+.checking-operation .title {
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  color: #ff9000;
+}
+
+.booking-form .sm-text-10 {
+  font-size: 12px;
+  color: rgb(255, 144, 0);
+  margin-bottom: 0;
+}
+
+.booking-form label {
+  display: block;
+}
+
+.booking-form input[type='number'] {
+  width: 100%;
+  max-width: 100px;
+  display: block;
+}
+
+.booking-form input {
+  padding: 10px 5px;
+  border: 1px solid rgba(211, 172, 121, 0.28);
+  border-radius: 3px;
+}
+
+.cta_book_now {
+  margin-top: 14px;
+  padding: 12px 10px;
+}
+
+@media all and (max-width: 600px) {
+  .booking-form .DayPickerInput,
+  .booking-form input {
+    width: 100%;
+    max-width: inherit;
+    margin-bottom: 10px;
+  }
+}

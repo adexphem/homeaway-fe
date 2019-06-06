@@ -1,0 +1,38 @@
+h1.caption {
+  font-weight: 100;
+  font-family: 'Lobster','Montserrat', sans-serif;
+  font-size: 90px;
+  font-style: 'italics';
+  padding: 50px 10px 20px;
+}
+
+.caption {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  min-width: 300px;
+  max-width: 900px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.caption > div {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.caption .caption_details {
+  max-width: 650px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.caption_cta {
+  max-width: 300px;
+}
+
+.caption_cta .cta_book_now {
+  padding: 20px 15px;
+  font-size: 18px;
+}
