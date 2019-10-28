@@ -22,6 +22,13 @@ class Contacts extends Component {
     };
   }
 
+  changeHandler = event => {
+    let value = event.target.value;
+    let name = event.target.name;
+
+    this.setState({ contactMessage: { [name]: value } });
+  };
+
   render() {
     const { isActive } = this.state;
     const { name, email, phone, message } = this.state.contactMessage;
@@ -38,19 +45,21 @@ class Contacts extends Component {
                     <div className="form-group">
                       <input
                         type="text"
-                        name="txtName"
+                        name="name"
+                        onChange={this.changeHandler}
                         className="form-control"
                         placeholder="Your Name *"
-                        value={name}
+                        defaultValue={name}
                       />
                     </div>
                     <div className="form-group">
                       <input
                         type="text"
-                        name="txtEmail"
+                        name="email"
                         className="form-control"
                         placeholder="Your Email *"
-                        value={email}
+                        onChange={this.changeHandler}
+                        defaultValue={email}
                       />
                     </div>
                     <div className="form-group">
@@ -58,8 +67,9 @@ class Contacts extends Component {
                         type="text"
                         name="txtPhone"
                         className="form-control"
+                        onChange={this.changeHandler}
                         placeholder="Your Phone Number *"
-                        value={phone}
+                        defaultValue={phone}
                       />
                     </div>
                   </div>
@@ -69,7 +79,8 @@ class Contacts extends Component {
                         name="txtMsg"
                         className="form-control message"
                         placeholder="Your Message *"
-                        value={message}
+                        onChange={this.changeHandler}
+                        defaultValue={message}
                       />
                     </div>
                   </div>
@@ -78,7 +89,7 @@ class Contacts extends Component {
                       type="submit"
                       name="btnSubmit"
                       className="btn-uni"
-                      value="Send Message"
+                      defaultValue="Send Message"
                     />
                   </div>
                 </div>
@@ -93,7 +104,7 @@ class Contacts extends Component {
                   <div className="main">24 hours a day</div>
                 </div>
                 <div className="brand-image">
-                  <img src={contactUsImg} />
+                  <img src={contactUsImg} alt="contact us" />
                 </div>
               </div>
             </div>

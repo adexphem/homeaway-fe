@@ -1,6 +1,6 @@
 h1.caption {
   font-weight: 100;
-  font-family: 'Lobster','Montserrat', sans-serif;
+  font-family: 'Lobster', 'Montserrat', sans-serif;
   font-size: 90px;
   font-style: 'italics';
   padding: 50px 10px 20px;
@@ -26,6 +26,9 @@ h1.caption {
   margin: 0 auto;
   margin-bottom: 30px;
   font-size: 24px;
+  background: rgba(148, 152, 162, 0.2);
+  padding: 20px 50px;
+  border-radius: 14px;
 }
 
 .caption_cta {

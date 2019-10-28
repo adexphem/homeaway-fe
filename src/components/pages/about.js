@@ -24,15 +24,24 @@ class Home extends Component {
       <div className="super_container">
         <Header isActive={isActive} />
         <PageHeader title="About Us" />
-        <div className="container">
-          HomeAway Apartments is a newly opened, well furnished short-let
-          service apartment that is located in the most serene and secured
-          environment in the heart of Akure (Ijapo Estate). Our apartments are
-          well furnished with state of the art equipments to suit your taste,
-          our service is excellent 24hours internet and power supply,
-          availability of car hire services, centralised location 7 minutes
-          drive to Akure shopping mall, 10mins drive to the airport,smooth road
-          network ,wide compound suitable for parties and gatherings.
+        <div className="spread-inline">
+          <div className="container">
+            <div className="contact-wrapper">
+              <div className="_description">
+                <div className="cta-middle">
+                  HomeAway Apartments is a newly opened, well furnished
+                  short-let service apartment that is located in the most serene
+                  and secured environment in the heart of Akure (Ijapo Estate).
+                  Our apartments are well furnished with state of the art
+                  equipments to suit your taste, our service is excellent
+                  24hours internet and power supply, availability of car hire
+                  services, centralised location 7 minutes drive to Akure
+                  shopping mall, 10mins drive to the airport,smooth road network
+                  ,wide compound suitable for parties and gatherings.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <Footer />
       </div>

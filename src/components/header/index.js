@@ -71,7 +71,7 @@ const Index = ({ isActive }) => {
                 </li>
               </ul>
               <div className="my-2 my-lg-0">
-                <div>twiter | facebook</div>
+                <div></div>
               </div>
             </div>
           </nav>

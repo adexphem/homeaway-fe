@@ -24,7 +24,7 @@ class DateInput extends Component {
   }
 
   render() {
-    const { selectedDay, dateFormat, placeholder } = this.state;
+    const { placeholder } = this.state;
 
     return (
       <DayPickerInput
